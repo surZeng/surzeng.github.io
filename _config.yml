@@ -10,8 +10,9 @@ url: "https://surzeng.github.io/"
 
 # Comment
 comment:
-    disqus: https-surzeng-github-io
+    #disqus: https-surzeng-github-io
     #duoshuo: leopard
+    youyan: 2131558
 
 # Social
 social:
