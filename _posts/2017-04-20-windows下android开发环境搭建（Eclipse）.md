@@ -23,13 +23,14 @@ tag: android
 
 > 4.新建系统变量，变量名：CLASSPATH， 变量值：.;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar。
 
+
 * 测试配置是否成功
-``bash
+```bash
 >java -version
 java version "1.8.0_102"
 Java(TM) SE Runtime Environment (build 1.8.0_102-b14)
 Java HotSpot(TM) 64-Bit Server VM (build 25.102-b14, mixed mode)
-``
+```
 
 # 配置 sdk 环境
 * [下载sdk](https://dl.google.com/android/android-sdk_r24.4.1-windows.zip)
@@ -42,12 +43,13 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.102-b14, mixed mode)
 
 > 3.打开path系统变量，在变量值后面添加：;%ANDROID_HOME%\platform-tools;%ANDROID_HOME%\tools;。
 
+
 * 测试配置是否成功
-``bash
+```bash
 >adb version
 Android Debug Bridge version 1.0.36
 Revision 0e9850346394-android
-``
+```
 
 # 配置 NDK 环境
 * [64位NDK下载](https://dl.google.com/android/repository/android-ndk-r13b-windows-x86.zip)
@@ -56,7 +58,9 @@ Revision 0e9850346394-android
 * 配置 ndk
 
 > 1.右键“我的电脑”或者“这台电脑”——>选择“属性”——>弹出来的页面中点击“高级系统设置”——>选择“高级”选项卡——>点击“环境变量”。
+
 > 2.新建系统变量，变量名：NDK_ROOT， 变量值：刚才安装 ndk 的路径。
+
 
 <br>
 
