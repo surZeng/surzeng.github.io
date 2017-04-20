@@ -1,23 +1,59 @@
-# Site settings
-title: HyG
-email: gaohaoyang126@126.com
-description: 浩阳的博客 前端爱好者
-# > # this means to ignore newlines until "baseurl:"
-#   Write an awesome description for your new site here. You can edit this
-#   line in _config.yml. It will appear in your document head meta (for
-#   Google search results) and in your feed.xml site description.
+# Basic
+title: 曾剑峰
+subtitle: 个人站
+description: 欢迎来到我的个人站~
+# 头像里面的标题
+avatarTitle: ҉
+# 头像里面的描述
+avatarDesc: android / linux
+url: "https://surzeng.github.io/"
 
-# baseurl: "" # the subpath of your site, e.g. /blog/
-# url: "http://yourdomain.com" # the base hostname & protocol for your site
-# twitter_username: jekyllrb
-github_username:  Gaohaoyang
-permalink: /:year/:month/:day/:title/
+# Comment
+comment:
+    # disqus: leopard
+    duoshuo: ҉ 
 
-# Build settings
-markdown: kramdown
+# Social
+social:
+    #weibo: 无 
+    github: surZeng
+    # twitter: 
+    mail: zengjf53@gmail.com
 
-# highlight
-# 本地用rouge, github上用pygments
-# highlighter: pygments
-# highlighter: rouge
-# highlighter: false
+# 百度统计 
+# 使用博客模板请去掉或者更换 id 
+baidu:
+    #id: 8ba1c6be0953b6f9c2ba38e57f615421  
+
+# Google Analytics
+# 使用博客模板请去掉或者更换 id
+ga:
+    #id: UA-84134159-3   
+    host: auto  
+
+permalink: /:year/:month/:title/
+# Format
+highlighter: rouge
+
+textColor: #FF0000
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: clear
+
+# The blog button should not be removed.
+blog_button:
+    title: 博客主页
+
+# Navigation buttons in the front page.s
+nav:
+    - {title: 所有文章, description: archive, url: '/archive'}   
+    - {title: 标签, description: tags, url: '/tags'}      
+    - {title: 关于我, description: about, url: '/about'}      
+    
+
+# Pagination
+gems: [jekyll-paginate,jekyll-sitemap]
+paginate: 20
+paginate_path: "page/:num/"
+
+
